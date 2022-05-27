@@ -1,0 +1,31 @@
+
+
+const RataRata = (mtk, bahasaIndonesia, bahasaInggris, ipa) =>{
+    let grade =''
+    if(typeof(mtk) === 'number'  && typeof(bahasaIndonesia) === 'number' && typeof(bahasaInggris) && typeof(ipa) === 'number') {
+
+        if(mtk,bahasaIndonesia, bahasaInggris, ipa < 0 && mtk,bahasaIndonesia, bahasaInggris, ipa >=100  ){
+          average = (mtk + bahasaIndonesia + bahasaInggris + ipa) / 4;
+
+          if(average >= 90){
+              grade = 'A'
+          }else if(average >= 80){
+              grade = 'B'
+          }else if(average >= 70){
+              grade = 'C'
+          }else if(average >=60){
+              grade = 'D'
+          }else{
+              grade = 'E'
+          }
+          console.log(`Rata-rata = ${average} \n Grade = ${grade}`)
+
+        }
+
+            }else{
+        console.log('inputan hanya diperbolehkan angka ')
+    }
+    
+}
+
+RataRata(20,30,20,30)
