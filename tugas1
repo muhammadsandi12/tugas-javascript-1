@@ -1,0 +1,38 @@
+const biodata = {
+    name: 'M Sandi Maulana Yahya',
+    age: 23,
+    hobbies: [
+        'football', 'sleep' , 'anime'
+    ],
+    isMarred: false,
+    schoolList: [
+        {
+            name: 'SDN Taman Jaya',
+            yearIn: 2004,
+            yearOUt: 2010,
+            major: null
+        },
+        {
+            name: 'SMPN 2 Gununghalu',
+            yearIn: 2010,
+            yearOUt: 2013,
+            major: null
+        },
+        {
+            name: 'SMK Bina Insan Mandiri',
+            yearIn: 2013,
+            yearOUt: 2016,
+            major: 'Computer And Network Engineering'
+        }
+
+    ],
+    skill: [
+        {
+          skillName: 'public speaking',  
+          level : 'beginner'
+        }
+    ],
+    interestInCoding: true
+}
+
+console.log(biodata)
