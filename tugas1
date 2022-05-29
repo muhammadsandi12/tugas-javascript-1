@@ -2,7 +2,7 @@ const biodata = {
     name: 'M Sandi Maulana Yahya',
     age: 23,
     hobbies: [
-        'football', 'sleep' , 'anime'
+        'play games online'
     ],
     isMarred: false,
     schoolList: [
@@ -30,6 +30,10 @@ const biodata = {
         {
           skillName: 'public speaking',  
           level : 'beginner'
+        },
+        {
+            skillName: 'frontEnd Web Developer',
+            level : 'beginner'
         }
     ],
     interestInCoding: true
