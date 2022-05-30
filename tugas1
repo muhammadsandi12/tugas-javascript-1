@@ -2,7 +2,7 @@ const biodata = {
     name: 'M Sandi Maulana Yahya',
     age: 23,
     hobbies: [
-        'play games online'
+        'game online', 'football'
     ],
     isMarred: false,
     schoolList: [
