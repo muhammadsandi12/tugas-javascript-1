@@ -23,14 +23,10 @@ const editData = {
     hobby: 'main bola'
 }
 
-console.log(editData)
+// console.log(editData)
 
 // destructuring
 const {address:{street,city}} = editData
-const hasil = {
-    address:{
-        street :street,
-        city : city
-    }
-}
-console.log(hasil)
+
+console.log(street)
+console.log(city)
