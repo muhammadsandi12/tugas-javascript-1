@@ -20,7 +20,7 @@ const Grade = (mtk, bahasaIndonesia, bahasaInggris, ipa) =>{
                     }else if(average >= 60){
                         grade = 'D'
                     }else{
-                        grade = 'D'
+                        grade = 'E'
                     }
 
                     console.log(`Rata-rata = ${average} \nGrade = ${grade}`)
